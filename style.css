@@ -1268,3 +1268,17 @@ header {
   transform: translateY(-20px);
   pointer-events: none;
 }
+.role-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* On smaller screens (mobile) */
+@media (max-width: 768px) {
+  .role-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
