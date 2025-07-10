@@ -684,6 +684,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const commentManager = new CommentManager();
   const smoothScroll = new SmoothScroll();
   const navbarEffect = new NavbarEffect();
+  
   window.commentManager = commentManager;
   addInteractiveEffects();
 });
